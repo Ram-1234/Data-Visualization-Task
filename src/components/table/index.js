@@ -18,8 +18,6 @@ const Home = () => {
   const gamaMedianList = medianFind(gamaMeanList, gamaList, "gama");
   const gamaModeList = modeFind(gamaMeanList, gamaMedianList);
 
-  console.log("meanList", meanList);
-
   return (
     <div className="container" style={styles.container}>
       <CustomTable
