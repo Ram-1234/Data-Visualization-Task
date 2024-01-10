@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1: clone this [Project](https://github.com/Ram-1234/Data-Visualization-Task)
 
-2: write command [npm install]
+2: change the working directory [cd Data-Visualization-Task]
 
-3: change the working directory [cd Data-Visualization-Task]
+3: write command [npm install]
 
 4: write command [npm start]
 
