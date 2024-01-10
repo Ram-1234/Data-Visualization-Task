@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4: write command [npm start]
 
 >Screenshot
-<img width="1280" alt="Screenshot 2024-01-10 at 12 50 23 PM" src="https://github.com/Ram-1234/Data-Visualization-Task/assets/59009687/c9730262-5901-4363-a353-be035fc7d6d6">
+<img width="1280" alt="Screenshot 2024-01-10 at 4 51 15 PM" src="https://github.com/Ram-1234/Data-Visualization-Task/assets/59009687/a2e0a46f-616e-454c-9096-429072fd4859">
 
 
 ## Available Scripts
