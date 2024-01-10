@@ -42,7 +42,7 @@ export const classesFetch = (data) => {
   export const recusrsive = (classes, data, res) => {
     if (classes === 0) return res;
     if (classes === 1) return (res += data[classes - 1].count);
-    return recusrsive(classes - 1, data, (res += data[classes - 1].count));
+    return recusrsive(classes - 1, data, (res += data[classes-1].count));
   };
   
   // finding median
@@ -52,11 +52,11 @@ export const classesFetch = (data) => {
       if (item.count % 2) {
         // odd
         nthIndex += parseInt((item.count + 1) / 2);
-        return { ...item, median: allData[nthIndex][key] };
+        return { ...item, median: allData[nthIndex-1][key] };
       } else {
         //even
-        nthIndex += parseInt([item.count / 2 + (item.count / 2 + 1)] / 2);
-        return { ...item, median: allData[nthIndex][key] };
+        nthIndex += parseInt([(item.count / 2) + ((item.count / 2) + 1)] / 2);
+        return { ...item, median: allData[nthIndex-1][key] };
       }
     });
     return medianList;
@@ -64,8 +64,8 @@ export const classesFetch = (data) => {
   
   // finding mode
   export const modeFind = (mean, median) => {
-    // As we know truth, 2*Mean + Mode = 3*Median => Mode = 3*Median - 2*Mean
-  
+    // As we know truth, 2 * Mean + Mode = 3 * Median => Mode = 3 * Median - 2 * Mean
+
     let modeList = median.map((item, index) => {
       return {
         ...mean[index],
