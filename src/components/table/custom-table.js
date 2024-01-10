@@ -27,7 +27,7 @@ const CustomTable = ({ title, allclass, meanList, medianList, modeList }) => {
             })}
         </tr>
         <tr>
-          <th>{title} Median</th>
+          <th>{title} Mode</th>
           {modeList &&
             modeList.map((item) => {
               return <td key={item.Alcohol}>{item?.mode}</td>;
