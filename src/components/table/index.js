@@ -5,7 +5,7 @@ import {
   medianFind,
   modeFind,
   gamaFind,
-} from "../calc/calc";
+} from "../../utils/calc";
 import CustomTable from "./custom-table";
 
 const Home = () => {
@@ -17,6 +17,8 @@ const Home = () => {
   const gamaMeanList = findMean(gamaList, "gama");
   const gamaMedianList = medianFind(gamaMeanList, gamaList, "gama");
   const gamaModeList = modeFind(gamaMeanList, gamaMedianList);
+
+  console.log("meanList", meanList);
 
   return (
     <div className="container" style={styles.container}>
