@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Instructions
+
+1: clone this [Project](https://github.com/Ram-1234/Data-Visualization-Task)
+
+2: write command [npm install]
+
+3: change the working directory [cd Data-Visualization-Task]
+
+4: write command [npm start]
+
+>Screenshot
+<img width="1280" alt="Screenshot 2024-01-10 at 8 58 15 AM" src="https://github.com/Ram-1234/Data-Visualization-Task/assets/59009687/ac075fd5-d82e-49a9-a98f-8c4ab3951210">
+
+
 ## Available Scripts
 
 In the project directory, you can run:
