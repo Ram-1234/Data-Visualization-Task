@@ -1,0 +1,22 @@
+.table_container, .table_body,.table_row, th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.table_container{
+    margin:auto;
+    margin-top: 10px;
+}
+
+th{
+    min-width: 90px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 600;
+    padding:5px 5px;
+}
+td{
+    padding:15px;
+    font-size: 12px;
+    font-weight: 400;
+}
